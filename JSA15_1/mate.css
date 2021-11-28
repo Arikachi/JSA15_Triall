@@ -1,0 +1,62 @@
+*{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.header{
+    background-image: url("https://preview.uideck.com/items/mate/img/hero-area.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+    background-image: url("https://preview.uideck.com/items/mate/img/logo.png");
+}
+
+.collumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+}
+
+.il{
+    padding: 0 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ul il a{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+ul il a:active{
+    background-color: rgb(97,209,179);
+}
+
+.active{
+    background-color: rgb(97,209,179);
+}
